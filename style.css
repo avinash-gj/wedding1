@@ -147,7 +147,7 @@ body, html {
 }
 
 /* Media query for desktops */
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 700px) {
   .mobile-view {
     display: none;
   }
