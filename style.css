@@ -147,7 +147,7 @@ body, html {
 }
 
 /* Media query for desktops */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .mobile-view {
     display: none;
   }
@@ -155,3 +155,25 @@ body, html {
     display: block;
   }
 }
+@media screen and (max-width: 360px) {
+
+  .btn2 {
+  position: absolute;
+  bottom: 380px;
+  top: 10%;
+  left: 60%;
+  transform: translateX(-70%);
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+  .desktop-view {
+    display: block;
+  }
+}
+
